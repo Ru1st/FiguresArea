@@ -3,6 +3,6 @@
     public interface IVisitor
     {
         void Visit(Circle circle);
-        void Visit(Triangle reqtangle);
+        void Visit(Triangle triangle);
     }
 }
