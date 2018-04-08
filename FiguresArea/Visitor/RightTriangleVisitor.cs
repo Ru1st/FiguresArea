@@ -11,8 +11,6 @@ namespace FiguresArea
         {
             var sides = new double[] { triangle.SideAB, triangle.SideBC, triangle.SideCA };
             Array.Sort(sides);
-            var a = Math.Round(sides[0] * sides[0] + sides[1] * sides[1], 5);
-            var b = Math.Round(sides[2] * sides[2], 5);
             IsRightTriangle = 
                 Math.Round(sides[0] * sides[0] + sides[1] * sides[1], 5) == Math.Round(sides[2] * sides[2], 5);
         }
